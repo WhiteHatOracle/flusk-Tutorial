@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+
+.content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 36px;
+
+}
+
+table{
+    width: 100%;
+    padding: 10px 4px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+form{
+    padding: 10px 4px;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+form #content{
+    font-family: monospace;
+    padding: 3px 5px;
+    border: 2px solid black;
+}
