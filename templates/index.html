@@ -9,6 +9,11 @@
     
     <h1>Task Master</h1>
 
+    <form action="/" method="post">
+        <input type="text" name="content" id="content">
+        <input type="submit" value="Add Task">
+    </form>
+    
     {% if tasks|length < 1 %}
         <h4>There aren't any tasks, create on below</h4>
     {% else %}
@@ -32,10 +37,8 @@
         {% endfor %}
     </table>
     {% endif %}
-    <form action="/" method="post">
-        <input type="text" name="content" id="content">
-        <input type="submit" value="Add Task">
-    </form>
+
+    
 
 </div>
 {% endblock %}
